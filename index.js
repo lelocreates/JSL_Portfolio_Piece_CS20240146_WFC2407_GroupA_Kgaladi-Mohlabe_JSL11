@@ -316,7 +316,6 @@ function openEditTaskModal(task) {
     editSelectStatus.value = storedTask.status;
   }
 
-
   // Call saveTaskChanges upon click of Save Changes button
   saveTaskChangesBtn.onclick = function() {
     const editedTitle = editTaskTitleInput.value;
@@ -337,7 +336,6 @@ function openEditTaskModal(task) {
       patchTask(task.id, task); // Save the updated task list 
     }
     
-
     saveTaskChanges(task.id); // Save changes
     toggleModal(false,'edit'); // Close the modal after saving
     refreshTasksUI()
