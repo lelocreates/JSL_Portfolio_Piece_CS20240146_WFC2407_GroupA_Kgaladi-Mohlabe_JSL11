@@ -1,24 +1,24 @@
 export const initialData = [
     {
-      "id": 1,
-      "title": "Launch Epic Career 🚀",
-      "description": "Create a killer Resume",
-      "status": "todo",
-      "board": "Launch Career"
+        "id": 1,
+        "title": "Launch Epic Career 🚀",
+        "description": "Create a killer Resume",
+        "status": "todo",
+        "board": "Launch Career"
     },
     {
-      "id": 2,
-      "title": "Master JavaScript 💛",
-      "description": "Get comfortable with the fundamentals",
-      "status": "doing",
-      "board": "Launch Career"
+        "id": 2,
+        "title": "Master JavaScript 💛",
+        "description": "Get comfortable with the fundamentals",
+        "status": "doing",
+        "board": "Launch Career"
     },
     {
-      "id": 3,
-      "title": "Keep on Going 🏆",
-      "description": "You're almost there",
-      "status": "doing",
-      "board": "Launch Career"
+        "id": 3,
+        "title": "Keep on Going 🏆",
+        "description": "You're almost there",
+        "status": "doing",
+        "board": "Launch Career"
     },
     {
         "id": 4,

@@ -119,35 +119,38 @@
     </form>
 
     <!-- Edit Task Modal: Form for editing an existing task's details. -->
-    <div class="edit-task-modal-window">
-        <form id="edit-task-form">
-            <div class="edit-task-div" id="edit-task-header">
-                <input type="text" id="edit-task-title-input" class="task-title-input" placeholder="Task Title">
-                <button id="edit-btn" class="edit-btn"></button>
-            </div>
-            <div class="edit-task-div">
-                <textarea id="edit-task-desc-input" class="edit-task-description-input" placeholder="Task Description"></textarea>
-            </div>
-            <div class="edit-task-div">
-                <label class="label-modal-window" for="edit-select-status">Current Status</label>
-                <select name="status" id="edit-select-status">
-                    <option value="todo">todo</option>
-                    <option value="doing">doing</option>
-                    <option value="done">done</option>
-                </select>
-            </div>
-            <div class="edit-task-div button-group">
-                <button type="button" class="editBtns" id="save-task-changes-btn">Save Changes</button>
-                <button type="button" class="editBtns" id="cancel-edit-btn">Cancel</button>
-                <button type="button" class="editBtns" id="delete-task-btn">Delete Task</button>
-            </div>
-        </form>
-    </div>
+    
+    <form id="edit-task-form" class="edit-task-modal-window">
+        <div class="edit-task-div" id="edit-task-header">
+            <input type="text" id="edit-task-title-input" class="task-title-input" placeholder="Task Title">
+            <button id="edit-btn" class="edit-btn"></button>
+        </div>
+        <div class="edit-task-div">
+            <textarea id="edit-task-desc-input" class="edit-task-description-input" placeholder="Task Description"></textarea>
+        </div>
+        <div class="edit-task-div">
+            <label class="label-modal-window" for="edit-select-status">Current Status</label>
+            <select name="status" id="edit-select-status">
+                <option value="todo">todo</option>
+                <option value="doing">doing</option>
+                <option value="done">done</option>
+            </select>
+        </div>
+        <div class="edit-task-div button-group">
+            <button type="button" class="editBtns" id="save-task-changes-btn">Save Changes</button>
+            <button type="button" class="editBtns" id="cancel-edit-btn">Cancel</button>
+            <button type="button" class="editBtns" id="delete-task-btn">Delete Task</button>
+        </div>
+    </form>
+    
 
 
     <div id="filterDiv"></div>
 
     <!-- JavaScript Import -->
+    
+    <script type="module" src="./initialData.js"></script>
+    <script type="module" src="./utils/taskFunctions.js"></script>
     <script type="module" src="./index.js"></script>
 </body>
 

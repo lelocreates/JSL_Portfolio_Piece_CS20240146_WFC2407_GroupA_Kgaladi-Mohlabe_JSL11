@@ -50,7 +50,7 @@ body {
   /* border: 5px solid rgb(0, 0, 0); */
   border-right: 0.1px solid #979797;
   /* flex: 0.8; */
-  display: none;
+  display: block;
   flex-direction: column;
   gap: 50px;
   /* padding-left: 50px; */
@@ -180,7 +180,7 @@ h4 {
   bottom: 45px;
   border-radius: 0 20px 20px 0;
   background-color: #219C90;
-  display: none;
+  display: block;
   cursor: pointer;
 }
 
@@ -402,7 +402,7 @@ header {
   font-weight: 500;
   font-size: 14px;
   border-radius: 10px;
-  display: none;
+  display: block;
   z-index: 3;
   transition: all 0.3s ease-in;
 }
@@ -479,6 +479,7 @@ header {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+  pointer-events: auto;
 }
 
 #cancel-edit-btn {
@@ -489,6 +490,7 @@ header {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+  pointer-events: auto;
 }
 
 #delete-task-btn {
@@ -499,6 +501,7 @@ header {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+  pointer-events: auto;
 }
 
 #deleteBoardBtn {
@@ -861,6 +864,7 @@ input:checked + #label-checkbox-theme:after {
 
   #headline-sidepanel {
     padding-left: 15px;
+  
   }
 
   .boards-nav-links-div {
